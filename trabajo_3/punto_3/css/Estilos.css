@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    background-color: rgb(rgb(0, 0, 0), rgb(99, 99, 99), rgb(248, 248, 248));
+}
+body{
+    background-color: rgb(255, 252, 250);
+}
+section{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0% auto;
+}
+strong{
+    color: orangered;
+}
+#logo{
+    width: 150px;
+    height: 0%;
+}
+img{
+    width: 30%;
+    height: 0%;
+}
+div{
+    width: 100%;
+    margin: 0% auto;
+}

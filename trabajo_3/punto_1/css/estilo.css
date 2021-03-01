@@ -1,0 +1,30 @@
+#imagen{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}
+
+#ph1{
+	margin: auto;
+	width: 300px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color:#2072A0; 
+
+}
+#ph2{
+	color: #FFFFFF;
+	background-color: #2072A0;
+	width: 200px;
+
+}
+
+#tablita{
+	margin: auto;
+	width: 300px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color:#2072A0;
+}
+
+
