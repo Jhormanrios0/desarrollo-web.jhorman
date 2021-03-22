@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora</title>    
+    <meta charset="utf-8">
+</head>
+<body>
+    
+<script type="text/javascript" src="js/funciones.js"> </script>
+    
+    <form id="Formulario" name="Formulario" method="post" onsubmit="return validacion()">
+        <label>Primer Número: &nbsp;&nbsp;  </label>
+        <input type="number" name="valor1" id="valor1" placeholder="Escriba un número"  onKeyPress="return soloNumeros(event)"  required/>
+        <br>
+        <label>Segundo Número:</label>
+        <input type="number" name="valor2" id="valor2"  onKeyPress="return soloNumeros(event)" placeholder="Escribe segundo número" required/>
+          <br>
+    <br>
+    <button type="button" onClick="validacion(); sumar();">Sumar</button>
+    <button type="button" onClick="validacion(); restar();">Restar</button>
+    <button type="button" onClick="validacion(); multiplicar();">Multiplicar</button>
+    <button type="button" onClick="validacion(); dividir();">Dividir</button>
+    <button type="button" onClick="validacion(); potencia();">Potencia</button>
+    </form>
+  
+    
+    
+    <p>El Resultado es: <span id="resultado"></span></p>
+</body>
+
+</html>
+<!--Alejandro Rafael Reyes Arboleda 
+Jhorman David Rodriguez Rios-->
